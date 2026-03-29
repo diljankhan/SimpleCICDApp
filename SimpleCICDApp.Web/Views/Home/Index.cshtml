@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>CI/CD Demo App</h1>
+
+<p id="message">Click the button</p>
+
+<button onclick="showMessage()">Click Me</button>
+
+<script>
+    function showMessage() {
+        document.getElementById("message").innerText = "Hello from JavaScript!";
+    }
+</script>
